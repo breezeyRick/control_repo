@@ -5,3 +5,6 @@ mod 'samuelson/dockeragent', '1.0.0'
 mod 'puppetlabs/docker', '4.4.0'
 # there are other dependencies that are only necessary for necessary for 
 # windows or ubuntu debian so we dont need to add
+mod 'saz/ssh', '9.0.0'
+mod 'puppet/systemd', '3.10.0'
+mod 'puppetlabs/inifile', '5.3.0'
