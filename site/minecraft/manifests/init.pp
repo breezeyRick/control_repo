@@ -9,6 +9,7 @@ class minecraft{
   package {'java':
     ensure => latest,
     source => 'https://download.oracle.com/java/18/latest/jdk-18_linux-x64_bin.rpm',
+    provider => yum,
   }
   file {'/opt/minecraft/eula.txt':
     ensure => file,
